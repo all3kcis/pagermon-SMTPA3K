@@ -1,6 +1,6 @@
 {
     "name": "SMTPA3K",
-    "description": "Send messages via email. See SMTP plugin for mail config.",
+    "description": "Send messages via email.",
     "disable": false,
     "trigger": "message",
     "scope": "after",
@@ -55,7 +55,7 @@
         {
             "name": "enable",
             "label": "Enable",
-            "description": "Enable sending messages that match this alias via Pushover",
+            "description": "Enable sending messages that match this alias via Email",
             "type": "checkbox"
         },
         {

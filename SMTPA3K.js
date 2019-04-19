@@ -1,7 +1,7 @@
 const nodemailer = require('nodemailer');
 var logger = require('../log');
 
-// Fork of Official STMP Plugin
+// Fork of Official SMTP Plugin
 // Add Address extraction
 
 function run(trigger, scope, data, config, callback) {
