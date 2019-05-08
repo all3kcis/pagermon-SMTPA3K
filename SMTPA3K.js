@@ -33,7 +33,7 @@ function run(trigger, scope, data, config, callback) {
             addr_clean = addr_grp[1]
             addr = addr_grp[1].replaceAll(',', '').replaceAll(' ', '+')
             logger.main.info('SMTP:' + 'Address is: %s', addr);
-            var addr_url = 'https://www.google.fr/maps/place/'+addr
+            var addr_url = 'https://maps.google.com/maps?q='+addr
           }
         }
 
